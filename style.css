@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(https://cdn.wallpapersafari.com/2/98/hbexfl.jpg)no-repeat;
+    background-size:cover;
+}
+.goosad{
+    font-family: "roboto" , sans-serif;
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    opacity: 99%;
+    max-width: 260px;
+    margin: 200px auto 100px;
+    padding:10px 45px 30px 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2),0 5px 5px 0 rgba(0,0,0,0.24);
+    border-radius:10px;
+    width:40%;
+}
+.goosad p {
+    font-size:25px;
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+}
+.goosad input{
+    outline:0;
+    border-radius: 0;
+    background: #F2F2F2;
+    width:100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font: size 14px;
+}
+.goosad input:hover{
+    background-color: #a0e1ff;
+    transition: all 1s ease 0s;
+}
+.goosad input:focus{
+    background-color: #a0e1ff;
+    transition: all 1s ease 0s;
+}
+button{
+    text-transform: uppercase;
+    outline:0;
+    width: 100%;
+    border-radius: 10px;
+    background: #1ADBE5;
+    padding: 15px;
+    border:0;
+    cursor: pointer;
+    font-size:14px;
+}
+.goosad button:hover, .goosad button:focus, .goosad button:active{
+    background-color: #06C5CF;
+    transition: all 1s ease 0s;
+}
+img{
+    height:100px;
+    border-radius: 300px;
+}
+::selection{
+    background:#06C5CF;
+}
