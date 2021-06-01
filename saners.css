@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(https://www.10wallpaper.com/wallpaper/3840x2400/1712/Yosemite_Winter_Fog_Forest_4K_HD_Desktop_3840x2400.jpg)no-repeat;
+    background-size:cover;
+}
+img{
+    width:150px;
+    margin-top: 40px;
+    border-radius: 400px;
+}
+.btn{
+    outline:0;
+    border-radius: 10px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnopRTER3cyQgo2i2ZwhkxsM5bQTuFSFg_CQ&usqp=CAU");
+    padding: 15px;
+    border:0;
+    cursor: pointer;
+    font-size:14px;
+    color:white;
+}
+
+.gibt{
+    font-family: "roboto" , sans-serif;
+    position: relative;
+    z-index: 1;
+    background: #baebff;
+    opacity: 99%;
+    max-width: 400px;
+    margin: 60px auto 100px;
+    padding:10px 45px 30px 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2),0 5px 5px 0 rgba(0,0,0,0.24);
+    border-radius:10px;
+}
+.gibt p {
+    font-size:25px;
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+}
+.gibt input{
+    outline:0;
+    border-radius: 0;
+    background: #F2F2F2;
+    width:100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font: size 14px;
+}
+::selection{
+    background:#06C5CF;
+}
+.gibt input:hover{
+    background-color: #a0e1ff;
+    transition: all 1s ease 0s;
+}
+.gibt input:focus{
+    background-color: #a0e1ff;
+    transition: all 1s ease 0s;
+}
+.btn:hover, .btn:focus, .btn:active{
+    background-color: #06C5CF;
+    transition: all 1s ease 0s;
+}
+.output {
+	padding: 10px;
+    opacity: 50%;
+    margin-top: -30;
+	width: 80%;
+	background: rgba(109, 181, 209, 0.8);
+	border-radius: 15px;
+}
